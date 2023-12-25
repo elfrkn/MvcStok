@@ -1,0 +1,58 @@
+﻿@using MvcStok.Models.Entitiy
+@using PagedList;
+@using PagedList.Mvc;
+@model PagedList.IPagedList<TBLURUNLER>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<table id="tablurun" class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ÜRÜN ID</th>
+            <th>ÜRÜN ADI</th>
+            <th>MARKA</th>
+            <th>KATEGORI</th>
+            <th>FIYAT</th>
+            <th>STOK</th>
+            <th>SİL</th>
+            <th>GÜNCELLE</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var urun in Model)
+        {
+
+            <tr>
+                <th>@urun.URUNID</th>
+                <td>@urun.URUNAD</td>
+                <td>@urun.MARKA</td>
+                <td>@urun.TBLKATEGORILER.KATEGORIAD</td>
+                <td>@urun.FIYAT</td>
+                <td>@urun.STOK</td>
+                <td><a href="/URUN/SIL/@urun.URUNID" class="btn btn-danger">SİL</a></td>
+                <td><a href="/URUN/UrunGetir/@urun.URUNID" class="btn btn-success">GÜNCELLE</a></td>
+
+            </tr>
+
+        }
+
+    </tbody>
+
+</table>
+@*@Html.PagedListPager((IPagedList)Model,sayfa=>Url.Action("Index",new {sayfa}))*@
+<a href="/URUN/YeniUrun/" class="btn btn-primary">YENİ ÜRÜN EKLE</a>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs-3.3.7/jq-2.2.4/jszip-3.1.3/pdfmake-0.1.27/dt-1.10.15/b-1.3.1/b-html5-1.3.1/b-print-1.3.1/r-2.1.1/rg-1.0.0/datatables.min.css"/>
+
+<script type="text/javascript" src="https://cdn.datatables.net/v/bs-3.3.7/jq-2.2.4/jszip-3.1.3/pdfmake-0.1.27/dt-1.10.15/b-1.3.1/b-html5-1.3.1/b-print-1.3.1/r-2.1.1/rg-1.0.0/datatables.min.js"></script>
+
+<script>
+    $('#tablurun').DataTable({
+        "language": {
+            "url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/Turkish.json"
+        }
+    });
+</script>
+
