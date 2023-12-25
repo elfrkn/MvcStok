@@ -40,35 +40,34 @@ Projenin temel özellikleri ;
  <b>Oluşturulan Model:</b>
 
 
-![Model](https://github.com/elfrkn/50DersteMvc/assets/101409313/8e6cdd7a-4c8c-4c9f-af21-964cfbfe80c8)
+![Model](https://github.com/elfrkn/MvcStok/assets/101409313/90d8f324-38e5-4eb9-9048-8359482c3e14)
+
 
  <b>Kategoriler:</b>
 
- 
- ![AramaPaneli](https://github.com/elfrkn/50DersteMvc/assets/101409313/94cf6ad8-a867-4c72-8e93-7ce77fa1cb0e) 
- ![Alert](https://github.com/elfrkn/50DersteMvc/assets/101409313/4ecdf850-cf08-4bdd-b44a-3b506f18c795)
+ ![AramaPaneli](https://github.com/elfrkn/MvcStok/assets/101409313/9dc7cbc2-30d0-4767-b6df-0d5486a1aa41)
+ ![Alert](https://github.com/elfrkn/MvcStok/assets/101409313/98537ded-d695-44e4-aba1-9524fec77115)
  
  <b>Ürünler:</b>
 
- 
-  ![urunler](https://github.com/elfrkn/50DersteMvc/assets/101409313/532cff73-8fd4-4d19-a1e4-4335c3937985)
-  ![Validation](https://github.com/elfrkn/50DersteMvc/assets/101409313/0794b3b6-2acb-47fa-ba6e-f238d4bad8e5)
+ ![urunler](https://github.com/elfrkn/MvcStok/assets/101409313/623164fc-fa91-4859-9f9e-6ed631798240)
+![Validation](https://github.com/elfrkn/MvcStok/assets/101409313/d96290de-01ab-495e-b56a-33fc83aff7d4)
 
  <b>Müşteriler:</b>
 
- 
- ![musteri](https://github.com/elfrkn/50DersteMvc/assets/101409313/156a3ad7-db70-4be7-bb37-4bb73d20509f)
- ![StringValidation](https://github.com/elfrkn/50DersteMvc/assets/101409313/bf4f39f7-f987-4732-b7c5-ebf265c62983)
+ ![musteri](https://github.com/elfrkn/MvcStok/assets/101409313/7f9296b1-8386-4468-a2de-ff7c2f77e932)
+ ![StringValidation](https://github.com/elfrkn/MvcStok/assets/101409313/6e0dbe9b-5502-4e48-960a-13eb9fe75a04)
 
+
+ 
  <b>Satışlar:</b>
 
- 
- ![SatisYap](https://github.com/elfrkn/50DersteMvc/assets/101409313/fb002848-1201-4d49-aaf8-37939bc0f1a3)
+ ![SatisYap](https://github.com/elfrkn/MvcStok/assets/101409313/c686f282-76b2-4f64-9cf2-0d5641eefa51)
 
+ 
   <b>Hakkımda:</b>
 
-  
-  ![Hakkimda](https://github.com/elfrkn/50DersteMvc/assets/101409313/845e058f-640f-4955-a64e-ff6abaf3e9d5)
+ ![Hakkimda](https://github.com/elfrkn/MvcStok/assets/101409313/4c23f792-f065-4740-89e6-b3cf1ac7cc33)
 
 
 
